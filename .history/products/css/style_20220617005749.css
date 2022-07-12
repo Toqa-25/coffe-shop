@@ -1,0 +1,32 @@
+@import "../../sign-up/css/style.css";
+
+
+/* you can copy style from sign-up css file style  */
+
+.manue-product{
+    max-width:300px;
+    box-shadow: 0px 0px 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 20px;
+    gap: 15px;
+}
+.manue-product img{
+    max-width:100%;
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.before-price{
+   text-decoration: line-through;
+}
+
+
+
+

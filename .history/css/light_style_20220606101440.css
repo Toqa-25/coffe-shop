@@ -1,0 +1,39 @@
+
+/* header style */
+body.light{
+    background-color: #fff;
+}
+body.light .home{
+    /* po */
+}
+/* body.light .home:before{
+    content:"";
+    width: 100px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left:0;
+    background-color: #fff;
+} */
+body.light .nav-item-list  a , 
+body.light .nav-item-icons li {
+    color:#000;
+}
+body.light .nav-items ul li:hover,
+body.light .nav-items ul li.active a , 
+body.light .nav-items ul li:hover a 
+{
+    color: var(--main-color)
+}
+@media (max-width: 767px ){
+body.light .nav-item-list{
+    background-color: #000;
+} 
+body.light .nav-item-list li a {
+    color:#fff;
+}
+}
+
+body.light .coffe-text{
+    /* color:#000; */
+}

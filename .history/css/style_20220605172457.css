@@ -1,0 +1,48 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ html{
+     scroll-behavior: smooth;
+ }
+ body{
+    font-family: 'Nunito', sans-serif;
+ }
+
+ /* component style */
+ .container {
+     width:90%;
+     margin:auto;
+ }
+ .pad{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.unlist{
+    list-style: none;
+}
+/* header style */
+header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header img {
+    max-width: 100%;
+    width: 100px;
+    height: 100px;
+}
+.nav-items {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+.nav-items ul {
+    justify-content: space-between;
+    display: flex;
+    align-items: center; 
+    gap:15px;
+}

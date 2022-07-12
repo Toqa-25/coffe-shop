@@ -1,0 +1,29 @@
+@import "../../home/css/style.css";
+@import "../../home/css/light_style.css" ;
+
+
+/* about style */
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    background-color: #000;
+}
+
+.about-image , .about-info {
+    flex:1;
+}
+.about-image img {
+  max-width: 100%;
+}
+.about-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    /* margin-top: 27px; */
+}
+.about-text-none{
+    display:none
+}

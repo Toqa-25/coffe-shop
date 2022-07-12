@@ -1,0 +1,5 @@
+@import "../../sign-up/css/light_style.css" ;
+
+body.light .heart-icon , body.light .minus , .body.light .close {
+    color: var(--main-dark-color);
+}

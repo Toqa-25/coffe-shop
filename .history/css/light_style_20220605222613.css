@@ -1,0 +1,15 @@
+
+/* header style */
+
+.nav-items ul li {
+    color:#fff
+}
+.nav-items ul li a{
+    color:#fff
+}
+.nav-items ul li:hover,
+.nav-items ul li.active a , 
+.nav-items ul li:hover a 
+{
+    color: var(--main-color)
+}

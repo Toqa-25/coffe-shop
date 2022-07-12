@@ -1,0 +1,11 @@
+
+body.light  .sign-up:before {
+    background-color: #3e352bdb;
+}
+
+.sign-form-item span{
+    color:var(--)
+}
+.sign-form-item a{
+    color: #d9ccbc;
+}

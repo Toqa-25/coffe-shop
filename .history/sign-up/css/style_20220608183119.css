@@ -1,0 +1,34 @@
+@import "../../home/css/style.css";
+@import "../../home/css/light_style.css" ;
+
+
+
+
+ .sign:before{
+    content:"";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left:0;
+    background-color: #665b4fdb;
+    z-index: -1;
+    transition: .5s;
+
+}
+/* about style */
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #000; */
+    gap:20px;
+    /* padding:20px; */
+}
+.sign {
+    overflow: hidden;
+    min-height: 500px;
+    min-width: 350px;
+    border-radius: 102px;
+    position: relative;
+}

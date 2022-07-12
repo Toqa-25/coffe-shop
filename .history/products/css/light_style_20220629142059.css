@@ -1,0 +1,11 @@
+@import "../../sign-up/css/light_style.css" ;
+
+body.light .heart-icon{
+    color: var(--main-dark-color);
+}
+body.light .review-icon{
+    color: var(--main-dark-color);
+}
+/* .review-icon{  
+    color:var(--main-color)
+} */

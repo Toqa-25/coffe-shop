@@ -1,0 +1,5 @@
+@import "../../sign-up/css/light_style.css" ;
+
+.light .heart-icon{
+    color: var(--main-dark-color);
+}

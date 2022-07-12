@@ -1,0 +1,13 @@
+
+/* header style */
+
+.nav-items ul li ,
+.nav-items ul li a{
+    color:#000
+}
+.nav-items ul li:hover,
+.nav-items ul li.active a , 
+.nav-items ul li:hover a 
+{
+    color: var(--main-color)
+}

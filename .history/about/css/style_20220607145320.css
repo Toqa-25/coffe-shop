@@ -1,0 +1,44 @@
+@import "../../home/css/style.css";
+@import "../../home/css/light_style.css" ;
+
+
+/* about style */
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #000; */
+    gap:20px;
+    /* padding:20px; */
+}
+
+.about-image , .about-info {
+    flex:1;
+}
+.about-image img {
+  max-width: 100%;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.about-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+}
+.about-text-none{
+    display:none
+}
+@media (max-width: 767px){
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    .about-info {
+        align-items: center;
+        max-width: 500px;
+    }
+}

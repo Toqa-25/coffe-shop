@@ -1,0 +1,69 @@
+
+:root{
+    --main-dark-color:  #584328;
+
+}
+/* header style */
+body.light{
+    background-color: #fff;
+}
+body.light .circle {
+    background-color: var(--main-dark-color);
+   
+}
+body.light .btn {
+    background-color: var(--main-dark-color);
+}
+body.light .text-color {
+    color: #7c6a56;
+}
+
+body.light .home:before{
+    content:"";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left:0;
+    background-color: #d9ccbcdb;
+    z-index: -1;
+}
+body.light .nav-item-list  a , 
+body.light .nav-item-icons li {
+    color: #7c6a56;
+    
+}
+body.light .nav-items ul li:hover,
+body.light .nav-items ul li.active a , 
+body.light .nav-items ul li:hover a 
+{
+    /* color: var(--main-color); */
+    color: var(--main-dark-color);
+}
+@media (max-width: 767px ){
+    body.light .nav-items ul li.active a , 
+    body.light .nav-items ul li:hover a 
+    {
+        color: var(--main-color);
+        /* color: var(--main-dark-color); */
+    }
+body.light .nav-item-list{
+    background-color: #000;
+} 
+body.light .nav-item-list li a {
+    color:#fff;
+    /* color: #7c6a56; */
+}
+}
+ 
+body.light .coffe-text , body.light .bottom-group p a{
+    color: var(--main-dark-color);
+
+}
+body.light .footer-item-icon-item {
+    background-color: var(--main-dark-color);
+
+}
+body.light .bottom-group , body.light .bottom-group a {
+    color: #62523f;
+}

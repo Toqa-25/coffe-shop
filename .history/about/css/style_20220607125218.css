@@ -1,0 +1,18 @@
+@import "../../home/css/style.css";
+@import "../../home/css/light_style.css" ;
+
+
+/* about style */
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+
+.about-image , .about-info {
+    flex:1;
+}
+.about-image img {
+  max-width: 100%;
+}

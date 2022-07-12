@@ -1,0 +1,19 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ html{
+     scroll-behavior: smooth;
+ }
+ body{
+    font-family: 'Nunito', sans-serif;
+ }
+
+ /* component style */
+ .pad{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+    /* component style */

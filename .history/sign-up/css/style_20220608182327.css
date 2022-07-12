@@ -1,0 +1,33 @@
+@import "../../home/css/style.css";
+@import "../../home/css/light_style.css" ;
+
+
+
+
+body.light .home:before{
+    content:"";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left:0;
+    background-color: #d9ccbcdb;
+    z-index: -1;
+    transition: .5s;
+
+}
+/* about style */
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #000; */
+    gap:20px;
+    /* padding:20px; */
+}
+.sign-up {
+    overflow: hidden;
+    min-height: 500px;
+    min-width: 350px;
+    border-radius: 102px;
+}

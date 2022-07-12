@@ -1,0 +1,18 @@
+@import "../../home/css/light_style.css" ;
+
+body.light  .sign:before {
+    /* background-color: #3e352bdb; */
+    background-color: #50463ba8;
+
+}
+
+body.light .sign-form-item span{
+    color:var(--main-color)
+}
+body.light .sign-form-item a{
+    color: #fff;
+}
+body.light .sign-form-item a:hover{
+    color: #d9ccbc;
+    /* text-decoration: underline; */
+}

@@ -1,0 +1,17 @@
+@import "../../home/css/style.css";
+@import "../../home/css/light_style.css" ;
+
+
+/* about style */
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-image , .about-info {
+    flex:1;
+}
+.about-image img {
+  max-width: 100%;
+}

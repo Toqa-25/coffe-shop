@@ -1,0 +1,15 @@
+
+body.light  .sign-up:before {
+    background-color: #3e352bdb;
+}
+
+body.light .sign-form-item span{
+    color:var(--main-color)
+}
+body.light .sign-form-item a{
+    color: #fff;
+}
+.sign-form-item a:hover{
+    color: #d9ccbc;
+    /* text-decoration: underline; */
+}

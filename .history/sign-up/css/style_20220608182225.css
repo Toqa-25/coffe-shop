@@ -1,0 +1,19 @@
+@import "../../home/css/style.css";
+@import "../../home/css/light_style.css" ;
+
+
+/* about style */
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #000; */
+    gap:20px;
+    /* padding:20px; */
+}
+.sign-up {
+    overflow: hidden;
+    min-height: 500px;
+    min-width: 350px;
+    border-radius: 102px;
+}
